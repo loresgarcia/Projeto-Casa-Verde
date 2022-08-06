@@ -1,0 +1,22 @@
+@import url(_variaveis.css);
+@import url(_reset.css);
+
+body {
+    font-family: var(--familia-corpo);
+    font-size: var(--tamanho-corpo);
+    color: var(--cinza);
+
+    background: url(../images/fundo-textura.png), url(../images/fundo-linhas.png);
+    background-position: center;
+
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.vector-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 60%;
+}
