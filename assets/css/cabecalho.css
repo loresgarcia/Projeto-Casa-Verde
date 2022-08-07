@@ -3,9 +3,14 @@
     display: flex;
     justify-content: space-between;
     padding: 1.375rem 0;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.cabecalho__logo {
+    width: 180px;
 }
 
 .cabecalho__navegacao {
     color: var(--preto);
-
 }

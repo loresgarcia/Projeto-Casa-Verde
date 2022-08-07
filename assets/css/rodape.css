@@ -1,0 +1,49 @@
+.rodape {
+    background-color: var(--branco);
+    padding: 7.5rem 0;
+    position: relative;
+}
+
+.rodape--largura {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.rodape__social img {
+    margin-bottom: 1.5rem;
+}
+
+.social__icones img {
+    margin-right: 1.5rem;
+}
+
+.rodape__endereco {
+    color: var(--preto);
+}
+
+.endereco__cidade {
+    font-size: var(--tamanho-destaque);
+    margin-bottom: 1rem;
+}
+
+.rodape__endereco span {
+    line-height: 1.75rem;
+}
+
+.rodape__vazio {
+    width: 300px;
+}
+.rodape__imagem {
+    width: 350px;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+}
+
+.rodape__vector {
+    bottom: 0;
+    left: 2%;
+    position: absolute;
+}
